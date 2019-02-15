@@ -1,0 +1,130 @@
+<!doctype html public "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>DEBS2006</title>
+<meta name="author" content="Administrator">
+<meta name="generator" content="Ulli Meybohms HTML EDITOR">
+<LINK REL=STYLESHEET TYPE="text/css" HREF="debs.css">
+</head>
+<body text="#000000" bgcolor="#FFFFFF" link="#FF0000" alink="#FF0000" vlink="#FF0000">
+
+
+  <center><img src="logo.png" width="333"  height="135" border="0" alt="">
+
+                    <br>
+
+<a href="index.html">http://www.cs.waikato.ac.nz/~hinze/DEBS2006/</a>     </center>
+
+
+
+   <P></p>
+    <center><h1>  Call for Papers</h1>      </center>
+
+
+
+
+<h3>Workshop Theme </h3>
+Event-based systems are those in which information provided by producers is distributed in a timely manner to interested consumers. Event-systems can be considered on the middle-ware level or on application level. Event-based applications are often found in streaming systems, surveillance and monitoring systems, or continuous query systems.
+Event-based systems can be used to integrate a wide range of components into a loosely-coupled distributed system: for example, event producers can be application components, post-commit triggers in a database, sensors, or system monitors; event consumers can be application components, device controllers, databases, workflow queues, etc. These systems are seeing increasingly widespread use, in applications ranging from time-critical systems, system management and control, to e-commerce.
+     <p></p>
+A common service interface provided by event-based systems is the publish-subscribe paradigm: producers and consumers can be mutually anonymous, producers deliver events to topics, each consumer specifies
+interest by means of a "subscription", and later receives events of interest via event notifications; the event-based system is responsible for consolidating subscriptions and propagating events.  Queuing and hybrids of publish-subscribe and queuing are also popular. Event-based systems are seeing increasingly widespread use, in applications ranging from time-critical systems, system management and control, to e-commerce. Publish-subscribe services have been incorporated into standards such as CORBA and JMS, and into commercial systems, such as offerings of IBM and TIBCO.
+   <p></p>
+Traditional event-based systems support subscriptions based on topics, or based on filter predicates on message content; the middleware service delivers copies of published messages to some subset of all subscribers. An emerging new area of interest is the extension of these services to include transformation, aggregation, and correlation of events. For example, a subscription to published events of stock trades and offers to trade may ask for (a) a continuous running average of stock trades on IBM; or (b) alerts indicating that more than 100 trades for the same stock issue have been made in the same hour; or (c) notifications that a request to buy and a request to sell have been made on the same issue with matching offer price ranges. As with traditional publish-subscribe, it is still desired that (a) publishers and subscribers remain anonymous, (b) subscribers are independent and can possibly dynamically enter and leave, (c) the system should push events from publishers to subscribers as quickly as possible, and (d) the implementation should scale to large numbers of clients. Many applications of this nature are built today by combining publish-subscribe systems with other client-side systems to perform the additional computation. The interest in these problems overlaps with other system areas -- specifically streaming systems, continuous query and continuous view update systems in databases, correlation engines, and system monitoring and management tools. It is our goal to provide cross-fertilization between researchers and practitioners in these areas with researchers and practitioners in traditional event-based middleware.
+
+<h3>Aim of the Workshop  </h3>
+
+The purpose of this workshop is to bring together people from academia and industry interested in the foundations, implementation, and application of all aspects of event-based middleware, from traditional topic-based and content-based publish-subscribe, to event correlation, streaming queries, mediations, and systems integration. We seek contributions from practitioners in industry and government, as well as from academic and industrial researchers.
+     <p></p>
+Papers do not have to be based on complete and comprehensive works. In fact, we welcome position papers, requirements for real-world applications, as well as papers based on preliminary results, provided that they are forward-looking and that they remain well-argued and justified in terms of existing work.
+     <p></p>
+<h3>Workshop Topics </h3>
+The goal of this workshop is to share and discuss original and innovative ideas in the area of event-based systems. Therefore, we invite authors interested in event-based applications, event-based infrastructures, and event correlation and transformation to submit a paper to this workshop. Below is a list of possible topics of interest grouped by areas. (The list should not be seen as exhaustive.)
+
+Event-Based Models and Paradigms
+<ul>
+<li>        Query/advertise vs. publish/subscribe vs. queueing vs. hybrids
+
+<li>         Event correlation languages
+
+<li>         Streaming/continuous query languages
+
+<li>         Event schemas and type systems
+
+<li>          Supporting XML documents in queries and transforms
+
+<li>         Qualities of Service
+
+<li>         Correctness guarantees
+
+<li>         Security specifications
+
+<li>        Application interfaces
+
+<li>         End-user programming
+
+<li>          Tools for specification and verification
+
+ </ul>
+
+Middleware Infrastructure
+ <ul>
+<li>         Architectures for distributed event-based infrastructures
+
+<li>          Content-based routing algorithms
+
+<li>         Fast event matching algorithms
+
+<li>         Fault-tolerance, reliability, and recovery
+
+<li>        Performance monitoring and system management of event-based middleware
+
+<li>        Dynamic reconfiguration: load balancing and rebalancing, subscription propagation
+
+<li>         Implementing streaming queries, transforms, or event correlation engines
+
+<li>         Consolidating subscriptions, rules, streaming queries
+
+<li>         Performance evaluation of event-based infrastructures
+ </ul>
+
+
+Integration
+ <ul>
+<li>          Domain-specific deployment of the event-based paradigm (e.g., workflow management systems, mobile computing, pervasive and ubiquitous computing, sensor networks, user interfaces, components integration, web services, embedded systems)
+
+<li>         Attaching event-based systems to: Point-to-point communication systems, Browser interfaces, Application GUIs, Databases
+<li>         Federating event-based systems
+
+<li>         Converting formats and protocols
+
+<li>         Security and privacy issues
+
+<li>         Mobility issues
+
+ </ul>
+
+User Experience and Requirements
+ <ul>
+<li>        Real-world application deployments that use event-based middleware: types of subscriptions, types of pre- and post-processing, languages used, number of subscribers and publishers, message rate and latency requirements
+
+<li>         Combining event-based systems with other systems in a total solution
+
+<li>         Requirements from future event-based applications
+ </ul>
+
+
+Authors of accepted papers are expected to participate in the workshop.
+
+<h3>Submission Instructions   </h3>
+Submissions should not exceed 6 (six) pages in IEEE proceedings style, including all text, references, appendices, and figures. Submissions must be in Portable Document Format (PDF).
+
+
+
+
+
+
+
+
+</body>
+</html>
